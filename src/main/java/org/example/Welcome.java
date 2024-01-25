@@ -1,10 +1,13 @@
 package org.example;
+
 import java.util.Scanner;
+
 public class Welcome {
     public static void Message() {
         System.out.println("welcome to the program");
     }
-    public static void Options(){
+
+    public static void Options() {
         System.out.println("1. Linked List");
         System.out.println("2. Stacks");
         System.out.println("3. Queues");
@@ -20,9 +23,9 @@ public class Welcome {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("CHOOSE AN OPTION");
+        System.out.println("CHOOSE AN _OPTION");
 
-     int choice=scanner.nextInt();
+        int choice = scanner.nextInt();
         switch (choice) {
             case 1:
                 System.out.println("You selected Linked List.");
