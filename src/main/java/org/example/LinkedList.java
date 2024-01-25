@@ -3,8 +3,8 @@ package org.example;
 public class LinkedList {
     private Node head;
     private static class Node {
-        int data; // Datos del nodo
-        Node next; // Referencia al siguiente nodo
+        int data;
+        Node next;
 
         Node(int data) {
             this.data = data;
@@ -12,12 +12,10 @@ public class LinkedList {
         }
     }
 
-    // Constructor de la lista enlazada
     public LinkedList() {
         this.head = null;
     }
 
-    // Método para agregar un nuevo nodo al final de la lista
     public void append(int data) {
         Node newNode = new Node(data);
         if (head == null) {
@@ -33,7 +31,6 @@ public class LinkedList {
         current.next = newNode;
     }
 
-    // Método para imprimir la lista enlazada
     public void printList() {
         Node current = head;
         while (current != null) {
@@ -43,14 +40,4 @@ public class LinkedList {
         System.out.println();
     }
 
-    // Ejemplo de uso
-    public static void main(String[] args) {
-        LinkedList myList = new LinkedList();
-        myList.append(1);
-        myList.append(2);
-        myList.append(3);
-
-        System.out.print("Lista enlazada: ");
-        myList.printList();
-    }
 }

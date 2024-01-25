@@ -1,19 +1,34 @@
 package org.example;
-import java.util.logging.Logger;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+
 public class Main {
-    static Logger logger = Logger.getLogger(Main.class.getName());
 
     public static void main(String[] args) {
 
-        logger.info("welcome");
-        logger.info("1 . linked list");
-        LinkedList myList = new LinkedList();
-        // agregar elemntos
-        myList.append(45);
-        myList.append(465);
-        myList.printList();
+        System.out.println("WELCOME");
+
+        Welcome welcome=new Welcome();
+        welcome.Message();
+        welcome.Options();
+        int choice=welcome.Choice();
+
+        if(choice==1){
+            System.out.println("1 . linked list");
+            LinkedList myList = new LinkedList();
+            myList.append(1);
+            myList.append(2);
+            myList.append(3);
+            System.out.print("LINKEDLINST: ");
+            myList.printList();
+
+        }else if(choice==2){
+            System.out.println("2. Stacks");
+        }else if(choice==3){
+            System.out.println("3. Queues");
+        }
+
+
+
     }
 }
