@@ -1,12 +1,0 @@
-
-L	java:S106	"+Replace this use of System.out by a logger.(€ùÒ©øÿÿÿÿ8¶ôıøÓ1
-I
-java:S2440"'Remove this instantiation of "Welcome".(ÜâàŞøÿÿÿÿ8ºôıøÓ1
-R
-java:S2209"5Change this instance-reference to a static reference.(³Ú½©8½ôıøÓ1
-R
-java:S2209"5Change this instance-reference to a static reference.(Ğ‘üÌ8ÂôıøÓ1
-G	java:S106"+Replace this use of System.out by a logger.(’¹·Í8ÍôıøÓ1
-G	java:S106"+Replace this use of System.out by a logger.(…Èı‚8ÙôıøÓ1
-G	java:S106"+Replace this use of System.out by a logger.(æ³úĞ8İôıøÓ1
-F	java:S106"+Replace this use of System.out by a logger.(ñ×8¨½ùÓ1
