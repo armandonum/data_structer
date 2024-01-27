@@ -1,4 +1,6 @@
-package arm.linkedList;
+package arm;
+
+import arm.interfaces.IManager;
 
 public class NullManager implements IManager {
     @Override

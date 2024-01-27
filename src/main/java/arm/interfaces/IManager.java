@@ -1,4 +1,4 @@
-package arm.linkedList;
+package arm.interfaces;
 
 public interface IManager {
     void run();
