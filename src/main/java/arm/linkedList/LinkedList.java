@@ -62,11 +62,29 @@ public class LinkedList implements ILinkedList {
 
     @Override
     public void removeFirst() {
-
+        if(isEmpty()){
+            System.out.println("the list is empty ");
+            return;
+        }
+        head=head.next;
     }
     @Override
     public void removeLast(){
-
+        if(isEmpty()){
+            System.out.println("the list is empty ");
+            return;
+        }
+        if(head.next==null){
+            head=null;
+            return;
+        }
+        Node current=head;
+        Node previous=null;
+        while (current.next!=null){
+            previous=current;
+            current=current.next;
+        }
+        previous.next=null;
     }
     public void print(){
         Node current=head;

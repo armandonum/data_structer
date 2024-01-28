@@ -9,7 +9,8 @@ public class Welcome {
 
     public static void Options() {
         System.out.println("A. Linked List");
-//        System.out.println("2. Stacks");
+        System.out.println("B. CircularList");
+        //System.out.println("3. Stacks");
 //        System.out.println("3. Queues");
 //        System.out.println("4. Trees");
 //        System.out.println("5. Graphs");
@@ -31,19 +32,19 @@ public class Welcome {
                 System.out.println("You selected Linked List.");
                 break;
             case "B":
-                System.out.println("You selected Stacks.");
+                System.out.println("You selected Circular List.");
                 break;
             case "C":
-                System.out.println("You selected Queues.");
+                System.out.println("You selected Stacks.");
                 break;
             case "D":
-                System.out.println("You selected Trees.");
+                System.out.println("You selected Queues.");
                 break;
             case "E":
-                System.out.println("You selected Graphs.");
+                System.out.println("You selected Threes.");
                 break;
             case "F":
-                System.out.println("You selected 1 Sorting.");
+                System.out.println("You selected 1 Graphs.");
                 break;
             case "G":
                 System.out.println("You selected 2 Sorting.");

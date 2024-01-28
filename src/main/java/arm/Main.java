@@ -7,14 +7,16 @@ public class Main {
         Welcome welcome=new Welcome();
         welcome.Options();
         String choise=Welcome.Choice();
-
         // input reader
         if(choise.equals("A")){
             IManager manager= ManagerFactory.getManager("A");
             manager.printMenu();
             manager.run();
-        }else{
-            System.out.println("the option not exist");
+        }else if(choise.equals("B")){
+            IManager manager=ManagerFactory.getManager("B");
+            manager.printMenu();
+            manager.run();
+
         }
 
     }
