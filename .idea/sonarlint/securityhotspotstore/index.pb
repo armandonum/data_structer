@@ -37,3 +37,17 @@ V
 -src/main/java/arm/CircleList/ICircleList.java,0/0/004542bc15247a995be06d0b664693e8ab6a3a3f
 d
 4src/main/java/arm/CircleList/CircularLinkedList.java,0/5/056538a5f5b4d195594f9ba257c715229ba726d8
+M
+src/main/java/labs/lab_1.java,e/b/eb8681f24e063600e1fc48aa8d3f37c248c9f58d
+M
+src/main/java/Tasks/Main.java,6/1/61a15735ffac351d9ec232e11cd0187a78f26105
+[
++src/main/java/Tasks/task_1/ITowerHanoi.java,e/7/e733c0f60a9661e2886d714852292bf0fdfd9da4
+Z
+*src/main/java/Tasks/task_1/TowerHanoi.java,6/d/6d355d02d417bedbbf65788492ad75fbc23532c1
+P
+ src/main/java/Tasks/NullRun.java,6/7/67c32a9daec44de9bfc247e3aef6289fcf782ebd
+M
+src/main/java/Tasks/IRun.java,a/1/a1ea02617ebc5239db10893698d3b0ecfdfd2476
+]
+-src/main/java/Tasks/task_1/TowerHanoiRun.java,f/e/fe1b389d216326b3ad27cea29c5ced26845e426a
