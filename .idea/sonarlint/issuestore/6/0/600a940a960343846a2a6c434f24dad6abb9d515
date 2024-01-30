@@ -1,0 +1,20 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ÔÉˆ8…öñÚÔ1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ú°¤æÿÿÿÿÿ8™÷ñÚÔ1
+A
+java:S1659"Declare "O" on a separate line.(Ú°¤æÿÿÿÿÿ8÷ñÚÔ1
+G	java:S106&"+Replace this use of System.out by a logger.(šò¤8Û÷ñÚÔ1
+s
+java:S3457*"Q%n should be used in place of \n to produce the platform-specific line separator.(À£„¯øÿÿÿÿ8Ş÷ñÚÔ1
+L	java:S106*"+Replace this use of System.out by a logger.(À£„¯øÿÿÿÿ8à÷ñÚÔ1
+n
+java:S34571"Q%n should be used in place of \n to produce the platform-specific line separator.(° á’8æ÷ñÚÔ1
+G	java:S1061"+Replace this use of System.out by a logger.(° á’8è÷ñÚÔ1
+F	java:S1067"+Replace this use of System.out by a logger.(¿ë˜8í÷ñÚÔ1
+B
+java:S34579"%String contains no format specifiers.(×ïï§8ñ÷ñÚÔ1
+G	java:S1069"+Replace this use of System.out by a logger.(×ïï§8ò÷ñÚÔ1
+G	java:S106<"+Replace this use of System.out by a logger.(ƒˆÒŞ8ö÷ñÚÔ1
+L	java:S106?"+Replace this use of System.out by a logger.(ù·Øêüÿÿÿÿ8ù÷ñÚÔ1
+L	java:S106B"+Replace this use of System.out by a logger.(ÚŒù²ùÿÿÿÿ8ü÷ñÚÔ1
+L	java:S106E"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ş÷ñÚÔ1

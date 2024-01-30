@@ -1,0 +1,22 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(¨ç¶óûÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Žƒ”þÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÿ÷Íø
+c	java:S100
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¢Œ§
+?	java:S106"+Replace this use of System.out by a logger.(èäû\
+E	java:S106"+Replace this use of System.out by a logger.(¦ëÖÓüÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÞžÒ—üÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(éôø´8ƒÈÿïÔ1
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èƒšÖ
+E	java:S106"+Replace this use of System.out by a logger.(®±¼àÿÿÿÿÿ
+@	java:S106 "+Replace this use of System.out by a logger.(ã½ô¶
+E	java:S106#"+Replace this use of System.out by a logger.(½©¦ûÿÿÿÿ
+@	java:S106&"+Replace this use of System.out by a logger.(¼Šù„
+E	java:S106)"+Replace this use of System.out by a logger.(ÐÜùÛþÿÿÿÿ
+?	java:S106,"+Replace this use of System.out by a logger.(©ºÞ
+E	java:S106/"+Replace this use of System.out by a logger.(€¢…Ìùÿÿÿÿ
+@	java:S1062"+Replace this use of System.out by a logger.(ÛóËž
+E	java:S1065"+Replace this use of System.out by a logger.(¯æ·öøÿÿÿÿ
+G	java:S1068"+Replace this use of System.out by a logger.(´¾£ë8ŠýüïÔ1
