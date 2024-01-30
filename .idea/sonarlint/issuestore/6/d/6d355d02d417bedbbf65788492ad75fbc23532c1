@@ -1,5 +1,7 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬È¥Óüÿÿÿÿ8«À‘ÙÕ1
-m
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ï²á©8âÀ‘ÙÕ1
-L	java:S106"+Replace this use of System.out by a logger.(ğ©í—şÿÿÿÿ8ÉŸÙÕ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬È¥Óüÿÿÿÿ8ÒÌ®áÕ1
+G	java:S106"+Replace this use of System.out by a logger.(Ó§µ’8¨Í®áÕ1
+L	java:S106"+Replace this use of System.out by a logger.(Ú®Â›úÿÿÿÿ8¬Í®áÕ1
+G	java:S106"+Replace this use of System.out by a logger.(š°Ï8¯Í®áÕ1
+G	java:S106"+Replace this use of System.out by a logger.(ò¤µæ8½°áÕ1
+]	java:S125"<This block of commented-out lines of code should be removed.(¬°Òçùÿÿÿÿ8¸Í®áÕ1

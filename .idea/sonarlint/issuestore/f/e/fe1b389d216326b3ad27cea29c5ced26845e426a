@@ -1,4 +1,13 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬È¥Óüÿÿÿÿ8â„Ñ×Õ1
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ış8è„Ñ×Õ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬È¥Óüÿÿÿÿ8„âÕ1
+r
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Áœàşÿÿÿÿ8ŸâÕ1
+m
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¯ü˜¼8¡âÕ1
+r
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÙÆß”şÿÿÿÿ8¢âÕ1
+G	java:S106"+Replace this use of System.out by a logger.(õÿƒ8ÈâÕ1
+x
+java:S2234"VParameters to move have the same names but not the same order as the method arguments.(ÁõÒ§ÿÿÿÿÿ8ÕâÕ1
+s
+java:S2234"VParameters to move have the same names but not the same order as the method arguments.(®÷Ò8İâÕ1
