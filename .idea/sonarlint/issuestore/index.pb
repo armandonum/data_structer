@@ -11,14 +11,6 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
-Å
-Q.idea/sonarlint/securityhotspotstore/3/1/31bb9c188597d88ee2158380edc2c4f6b1e68230,9/7/97694a85be2373f8733bbee494aebd7bc372b025
-W
-'src/main/java/labs/lab_1/GameEntry.java,e/3/e3f25ee3e8c45025db97ad3f9495eb1633e339f8
-R
-"src/main/java/labs/lab_1/Main.java,e/9/e9c0e975f369cb190e6839bff9cf9accfd3938b1
-X
-(src/main/java/labs/lab_1/ScoreBoard.java,8/e/8eded75e7f5c4df171973e62811784890818ca60
 R
 "src/main/java/arm/NullManager.java,3/8/385a2c48d5c725853d15feec32239971b9248be1
 U
@@ -37,8 +29,6 @@ Z
 *src/main/java/arm/interfaces/IManager.java,1/2/127f262615024e19d25380fd6db670eddc6c2728
 9
 	readme.md,2/7/275d783e298228506068436512433d343feb52aa
-T
-$src/main/java/arm/CircleListRun.java,e/6/e6b84b82ae8c9a895c893bfffc4ddcd915c8a9bf
 _
 /src/main/java/arm/CircleList/CircleListRun.java,5/a/5a3b081a49f2d18ea5c47fbcc2c7914de4d37eaa
 V
