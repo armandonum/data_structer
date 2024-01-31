@@ -9,6 +9,8 @@ public class Welcome {
 
     public static void Options() {
         System.out.println("A. Linked List");
+        System.out.println("A-1. Double Linked List");
+
         System.out.println("B. CircularList");
         //System.out.println("3. Stacks");
 //        System.out.println("3. Queues");
@@ -31,6 +33,8 @@ public class Welcome {
             case "A":
                 System.out.println("You selected Linked List.");
                 break;
+            case "A-1":
+                System.out.println("You selected Double Linked List.");
             case "B":
                 System.out.println("You selected Circular List.");
                 break;

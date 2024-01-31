@@ -1,8 +1,8 @@
 package arm.linkedList;
 
-public class Node {
+public class Node<T>  {
     int data;
-    Node next;
+    Node<T> next;
 
     public Node(int data){
         this.data=data;

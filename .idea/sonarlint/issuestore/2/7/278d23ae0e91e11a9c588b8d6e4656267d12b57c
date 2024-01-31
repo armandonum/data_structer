@@ -1,7 +1,7 @@
 
+{
+java:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").(™¼ñéıÿÿÿÿ8ÒàÕ€Ö1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬áøè8İë¤ïÔ1
-c
-java:S2259W"FA "NullPointerException" could be thrown; "previous" is nullable here.(ï¥¨Ÿ8»Æ¥ïÔ1
-L	java:S106B"+Replace this use of System.out by a logger.(æÔ¹’şÿÿÿÿ8Íî¤ïÔ1
-L	java:S106J"+Replace this use of System.out by a logger.(æÔ¹’şÿÿÿÿ8ëî¤ïÔ1
-L	java:S106\"+Replace this use of System.out by a logger.(¶†¢µÿÿÿÿÿ8Ç¥ïÔ1
+L	java:S106A"+Replace this use of System.out by a logger.(æÔ¹’şÿÿÿÿ8Íî¤ïÔ1
+L	java:S106I"+Replace this use of System.out by a logger.(æÔ¹’şÿÿÿÿ8ëî¤ïÔ1
+L	java:S106["+Replace this use of System.out by a logger.(¶†¢µÿÿÿÿÿ8Ç¥ïÔ1

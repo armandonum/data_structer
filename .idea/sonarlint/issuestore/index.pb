@@ -45,9 +45,23 @@ M
 +src/main/java/Tasks/task_1/ITowerHanoi.java,e/7/e733c0f60a9661e2886d714852292bf0fdfd9da4
 Z
 *src/main/java/Tasks/task_1/TowerHanoi.java,6/d/6d355d02d417bedbbf65788492ad75fbc23532c1
-P
- src/main/java/Tasks/NullRun.java,6/7/67c32a9daec44de9bfc247e3aef6289fcf782ebd
 M
 src/main/java/Tasks/IRun.java,a/1/a1ea02617ebc5239db10893698d3b0ecfdfd2476
 ]
 -src/main/java/Tasks/task_1/TowerHanoiRun.java,f/e/fe1b389d216326b3ad27cea29c5ced26845e426a
+Y
+)src/main/java/arm/interfaces/IQueues.java,4/6/4659d8f52489739bda6badb4f1b0c8b4774ef3bc
+R
+"src/main/test/java/QueuesTest.java,1/4/1480f45200d4fb1f7e6914b4fd855ae7c4b6212a
+Y
+)src/main/java/arm/interfaces/IStacks.java,c/2/c2633ddebaac0d2b781bf4ae1759640472c077bc
+[
++src/main/java/arm/interfaces/IDeQueues.java,1/d/1d9c7174d193138164ed1e6128417d4f7e11dab2
+c
+3src/main/java/arm/linkedList/IDoubleLinkedList.java,f/7/f7111f37f7a5b2fd1b5458c90178ff1054a48730
+b
+2src/main/java/arm/linkedList/DoubleLinkedList.java,4/b/4b0170c0c67991fc87b0c0a8a354e3e79dcffeec
+a
+1src/main/java/arm/linkedList/DoubkleEdgeNode.java,2/7/27ddca8b247fbe6ba9774b1c170e11751186cdbf
+i
+9src/main/java/arm/linkedList/DoubleLinkedListManager.java,c/d/cd8c0c8ebb0c8445fbf8697c726ca071b0d3fe56

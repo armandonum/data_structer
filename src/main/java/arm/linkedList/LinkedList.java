@@ -1,14 +1,14 @@
 package arm.linkedList;
 
-public class LinkedList implements ILinkedList {
-    Node head;
+public class LinkedList<T> implements ILinkedList {
+    Node<T> head;
     @Override
     public int size() {
         if(isEmpty()){
             return 0;
         }
         int size=0;
-        Node current=head;
+        Node<T> current=head;
         while (current!= null){
             size++;
             current=current.next;
@@ -22,14 +22,13 @@ public class LinkedList implements ILinkedList {
     }
 
     @Override
-    public Node first() {
-
+    public Node<T> first() {
         return head;
     }
 
     @Override
-    public Node last() {
-        Node current=head;
+    public Node<T> last() {
+        Node<T> current=head;
         while (current!=null){
             if(current.next==null){
                 return current;
@@ -41,7 +40,7 @@ public class LinkedList implements ILinkedList {
 
     @Override
     public void addFirst(int data) {
-        Node newNode=new Node(data);
+        Node<T> newNode=new Node<T>(data);
         if(isEmpty()){
             head=newNode;
             return;
@@ -52,12 +51,12 @@ public class LinkedList implements ILinkedList {
 
     @Override
     public void addLast(int data) {
-        Node lastNode=last();
+        Node<T> lastNode=last();
         if(lastNode==null){
-            head =new Node(data);
+            head =new Node<T>(data);
             return;
         }
-        lastNode.next=new Node(data);
+        lastNode.next=new Node<T>(data);
     }
 
     @Override
@@ -78,8 +77,8 @@ public class LinkedList implements ILinkedList {
             head=null;
             return;
         }
-        Node current=head;
-        Node previous=null;
+        Node<T> current=head;
+        Node<T> previous=null;
         while (current.next!=null){
             previous=current;
             current=current.next;
@@ -87,7 +86,7 @@ public class LinkedList implements ILinkedList {
         previous.next=null;
     }
     public void print(){
-        Node current=head;
+        Node<T> current=head;
         while (current!=null) {
             System.out.println(current.data);
             current=current.next;

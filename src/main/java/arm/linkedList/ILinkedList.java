@@ -1,10 +1,10 @@
 package arm.linkedList;
 
-public interface ILinkedList {
+public interface ILinkedList<T> {
     int size();
     boolean isEmpty();
-    Node first();
-    Node last();
+    Node<T> first();
+    Node<T> last();
     void addFirst(int data);
     void addLast(int data);
     void removeFirst();

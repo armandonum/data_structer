@@ -12,6 +12,10 @@ public class Main {
             IManager manager= ManagerFactory.getManager("A");
             manager.printMenu();
             manager.run();
+        }else if(choise.equals("A-1")){
+            IManager manager=ManagerFactory.getManager("A-1");
+            manager.printMenu();
+            manager.run();
         }else if(choise.equals("B")){
             IManager manager=ManagerFactory.getManager("B");
             manager.printMenu();
