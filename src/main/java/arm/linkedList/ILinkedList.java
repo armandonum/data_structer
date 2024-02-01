@@ -5,8 +5,8 @@ public interface ILinkedList<T> {
     boolean isEmpty();
     Node<T> first();
     Node<T> last();
-    void addFirst(int data);
-    void addLast(int data);
+    void addFirst(T data);
+    void addLast(T data);
     void removeFirst();
     void removeLast();
 }

@@ -1,6 +1,6 @@
 package arm.interfaces;
 
-public interface IManager {
+public interface IRunner {
     void run();
 
     void printMenu();

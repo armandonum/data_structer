@@ -1,16 +1,15 @@
 package arm.linkedList;
 
-import arm.interfaces.IManager;
+import arm.interfaces.IRunner;
 
 import java.util.Scanner;
 
-public class DoubleLinkedListManager implements IManager {
+public class DoubleLinkedListManager implements IRunner {
     @Override
     public void run() {
         System.out.println("i am running Doublelinkedlistmanager");
         DoubleLinkedList<Integer> doubleLinkedList = new DoubleLinkedList<>();
         System.out.println("Double Linked list size"+ doubleLinkedList.size());
-        printMenu();
         int choise=0;
         //read imputs
         do {

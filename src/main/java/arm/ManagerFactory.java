@@ -3,10 +3,12 @@ package arm;
 import arm.CircleList.CircleListRun;
 import arm.linkedList.DoubleLinkedListManager;
 import arm.linkedList.LinkedListManager;
-import arm.interfaces.IManager;
+import arm.interfaces.IRunner;
+import arm.stacks.ArrayStackRunner;
+import arm.stacks.StacksRunner;
 
 public class ManagerFactory {
-    public static IManager getManager(String structureID){
+    public static IRunner getManager(String structureID){
 
         if(structureID.equals("A")){
             return new LinkedListManager();
@@ -14,6 +16,8 @@ public class ManagerFactory {
                 return new DoubleLinkedListManager();
         }else if(structureID.equals("B")){
             return new CircleListRun();
+        }else if(structureID.equals("C")){
+            return new StacksRunner();
         }
         return new NullManager();
     }

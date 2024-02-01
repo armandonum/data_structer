@@ -12,7 +12,7 @@ public class Welcome {
         System.out.println("A-1. Double Linked List");
 
         System.out.println("B. CircularList");
-        //System.out.println("3. Stacks");
+        System.out.println("C. Stacks");
 //        System.out.println("3. Queues");
 //        System.out.println("4. Trees");
 //        System.out.println("5. Graphs");

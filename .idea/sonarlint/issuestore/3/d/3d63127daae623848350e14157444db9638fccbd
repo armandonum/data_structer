@@ -1,0 +1,22 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(‚Óöÿÿÿÿÿ8«ß×¬Ö1
+Q
+java:S3740"/Provide the parametrized type for this generic.(‚Óöÿÿÿÿÿ8¬ß×¬Ö1
+G	java:S106"+Replace this use of System.out by a logger.(Ğ¯ï£8áß×¬Ö1
+G	java:S106"+Replace this use of System.out by a logger.(ßÓ±ç8çß×¬Ö1
+G	java:S106"+Replace this use of System.out by a logger.(Ìßú§8èß×¬Ö1
+L	java:S106"+Replace this use of System.out by a logger.(¹õúÅøÿÿÿÿ8éß×¬Ö1
+L	java:S106"+Replace this use of System.out by a logger.(·½†îıÿÿÿÿ8êß×¬Ö1
+G	java:S106!"+Replace this use of System.out by a logger.(ÛêÆ8æ¶Ù¬Ö1
+G	java:S106$"+Replace this use of System.out by a logger.(Íİ±Ş8é¶Ù¬Ö1
+L	java:S106%"+Replace this use of System.out by a logger.(Ø—÷öıÿÿÿÿ8ê¶Ù¬Ö1
+L	java:S106("+Replace this use of System.out by a logger.(–›Ö¬üÿÿÿÿ8í¶Ù¬Ö1
+G	java:S106+"+Replace this use of System.out by a logger.(Ò˜÷ï8ñ¶Ù¬Ö1
+L	java:S1063"+Replace this use of System.out by a logger.(òï¥ûûÿÿÿÿ8õ¶Ù¬Ö1
+L	java:S1064"+Replace this use of System.out by a logger.(Ûå³ÿÿÿÿÿ8÷¶Ù¬Ö1
+L	java:S1065"+Replace this use of System.out by a logger.(Ç¦ÊØÿÿÿÿÿ8ù¶Ù¬Ö1
+G	java:S1066"+Replace this use of System.out by a logger.(°„«Ò8û¶Ù¬Ö1
+G	java:S1067"+Replace this use of System.out by a logger.(š”¹Ï8ü¶Ù¬Ö1
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ò·¢çÿÿÿÿÿ8ş¶Ù¬Ö1

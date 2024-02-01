@@ -1,10 +1,10 @@
 package arm.linkedList;
 
 public class Node<T>  {
-    int data;
+   public T data; // value node
     Node<T> next;
 
-    public Node(int data){
+    public Node(T data){// this si constructor
         this.data=data;
         this.next=null;
     }

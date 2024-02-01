@@ -1,6 +1,6 @@
 package arm.linkedList;
 
-public class LinkedList<T> implements ILinkedList {
+public class LinkedList<T> implements ILinkedList<T> {
     Node<T> head;
     @Override
     public int size() {
@@ -39,7 +39,7 @@ public class LinkedList<T> implements ILinkedList {
     }
 
     @Override
-    public void addFirst(int data) {
+    public void addFirst(T data) {
         Node<T> newNode=new Node<T>(data);
         if(isEmpty()){
             head=newNode;
@@ -50,7 +50,7 @@ public class LinkedList<T> implements ILinkedList {
     }
 
     @Override
-    public void addLast(int data) {
+    public void addLast(T data) {
         Node<T> lastNode=last();
         if(lastNode==null){
             head =new Node<T>(data);

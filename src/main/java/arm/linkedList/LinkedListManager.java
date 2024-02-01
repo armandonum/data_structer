@@ -1,16 +1,15 @@
 package arm.linkedList;
 
-import arm.interfaces.IManager;
+import arm.interfaces.IRunner;
 
 import java.util.Scanner;
 
-public class LinkedListManager implements IManager {
+public class LinkedListManager implements IRunner {
     @Override
     public void run() {
         System.out.println("i am running linkedlistmanager");
         LinkedList list=new LinkedList();
         System.out.println("Linked list size"+ list.size());
-        printMenu();
 int choise=0;
         //read imputs
         do {

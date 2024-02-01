@@ -1,11 +1,10 @@
 package arm.CircleList;
 
-import arm.interfaces.IManager;
-import arm.linkedList.LinkedList;
+import arm.interfaces.IRunner;
 
 import java.util.Scanner;
 
-public class CircleListRun implements IManager {
+public class CircleListRun implements IRunner {
     @Override
     public void run() {
         System.out.println("i am running cicularLinkedList");

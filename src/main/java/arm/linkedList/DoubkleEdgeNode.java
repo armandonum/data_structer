@@ -6,7 +6,6 @@ public class DoubkleEdgeNode<T> {
     DoubkleEdgeNode<T> next;
     T data;
     public DoubkleEdgeNode(T data){
-
         this.prev=null;
         this.next=null;
         this.data=data;

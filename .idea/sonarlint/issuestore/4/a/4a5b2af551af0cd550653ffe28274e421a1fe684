@@ -1,0 +1,19 @@
+
+v
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÑÙë8²˜¬Ö1
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ä¥U8æ˜¬Ö1
+\
+java:S1854":Remove this useless assignment to local variable "person".(¼İüìûÿÿÿÿ8ö˜¬Ö1
+V
+java:S1854":Remove this useless assignment to local variable "person".(¬Øä.8÷˜¬Ö1
+W
+java:S1854":Remove this useless assignment to local variable "person".(óäùî8÷˜¬Ö1
+G	java:S106"+Replace this use of System.out by a logger.(·µÙÙ8Š™¬Ö1
+H
+java:S1481"+Remove this unused "person" local variable.(óäùî8™¬Ö1
+X	java:S125"<This block of commented-out lines of code should be removed.(ªªÚÜ8™¬Ö1
+L	java:S106"+Replace this use of System.out by a logger.(Ê”Ñİıÿÿÿÿ8‘™¬Ö1
+X	java:S125"<This block of commented-out lines of code should be removed.(ŒÊŸı8–™¬Ö1
+G	java:S106"+Replace this use of System.out by a logger.(ÈåéÛ8š™¬Ö1
+X	java:S125"<This block of commented-out lines of code should be removed.(ªªÚÜ8Ÿ™¬Ö1

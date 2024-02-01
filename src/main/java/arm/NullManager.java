@@ -1,8 +1,8 @@
 package arm;
 
-import arm.interfaces.IManager;
+import arm.interfaces.IRunner;
 
-public class NullManager implements IManager {
+public class NullManager implements IRunner {
     @Override
     public void run() {
         System.out.println("wring input or manager not implemented yet");

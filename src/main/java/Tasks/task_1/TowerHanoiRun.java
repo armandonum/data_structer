@@ -8,9 +8,9 @@ public class TowerHanoiRun implements IRun {
 
     @Override
     public void resolve(int n, ITowerHanoi tower) {
-Stack<Integer> source = new Stack<>();
-Stack<Integer> aux = new Stack<>();
-Stack<Integer> destiny = new Stack<>();
+        Stack<Integer> source = new Stack<>();
+        Stack<Integer> aux = new Stack<>();
+        Stack<Integer> destiny = new Stack<>();
         for (int i = n; i >=1; i--) {
             source.push(i);
         }
@@ -21,12 +21,12 @@ Stack<Integer> destiny = new Stack<>();
 
     @Override
     public void move(int n, Stack<Integer> source, Stack<Integer> aux, Stack<Integer> destiny, ITowerHanoi tower) {
-if(n>0){
-    move(n-1,source,destiny,aux,tower);
-    tower.moveDisc(source,destiny);
-    tower.printStatus(source,aux,destiny);
-    move(n-1,aux,source,destiny,tower);
+        if(n>0){
+            move(n-1,source,destiny,aux,tower);
+            tower.moveDisc(source,destiny);
+            tower.printStatus(source,aux,destiny);
+            move(n-1,aux,source,destiny,tower);
 
-}
+        }
     }
 }
