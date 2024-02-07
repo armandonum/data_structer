@@ -25,8 +25,6 @@ V
 &src/main/java/arm/linkedList/Node.java,0/0/00e7fd8e33402bfb38a6078d8eaebf0f1ed92958
 \
 ,src/main/java/arm/linkedList/LinkedList.java,2/7/278d23ae0e91e11a9c588b8d6e4656267d12b57c
-Z
-*src/main/java/arm/interfaces/IManager.java,1/2/127f262615024e19d25380fd6db670eddc6c2728
 9
 	readme.md,2/7/275d783e298228506068436512433d343feb52aa
 _
@@ -49,12 +47,6 @@ M
 src/main/java/Tasks/IRun.java,a/1/a1ea02617ebc5239db10893698d3b0ecfdfd2476
 ]
 -src/main/java/Tasks/task_1/TowerHanoiRun.java,f/e/fe1b389d216326b3ad27cea29c5ced26845e426a
-Y
-)src/main/java/arm/interfaces/IQueues.java,4/6/4659d8f52489739bda6badb4f1b0c8b4774ef3bc
-R
-"src/main/test/java/QueuesTest.java,1/4/1480f45200d4fb1f7e6914b4fd855ae7c4b6212a
-Y
-)src/main/java/arm/interfaces/IStacks.java,c/2/c2633ddebaac0d2b781bf4ae1759640472c077bc
 [
 +src/main/java/arm/interfaces/IDeQueues.java,1/d/1d9c7174d193138164ed1e6128417d4f7e11dab2
 c
@@ -65,8 +57,6 @@ a
 1src/main/java/arm/linkedList/DoubkleEdgeNode.java,2/7/27ddca8b247fbe6ba9774b1c170e11751186cdbf
 i
 9src/main/java/arm/linkedList/DoubleLinkedListManager.java,c/d/cd8c0c8ebb0c8445fbf8697c726ca071b0d3fe56
-T
-$src/main/java/arm/stacks/Stacks.java,4/6/467a1beea1caaeb8f17a9e40c5534b77664cf325
 T
 $src/main/java/arm/Queues/Queues.java,3/3/33298531ff6f15e0f59f5a674a4b62d3d545f415
 U
@@ -85,3 +75,27 @@ M
 src/main/java/arm/Person.java,1/4/14c822b78203db7bacad3508f5ea540b442d20f7
 ^
 .src/main/java/arm/stacks/ArrayStackRunner.java,4/a/4a5b2af551af0cd550653ffe28274e421a1fe684
+[
++src/test/java/arm/Tests/testLinkedList.java,e/c/eca7d8f8f4e9de697c7e972bea95149bc5fd82e9
+W
+'src/test/java/arm/Tests/testQueues.java,9/c/9c21e85623b3d61d5e64cfbd3bc79eb80f38c882
+U
+%src/main/java/arm/Queues/IQueues.java,e/b/ebd1324c5abb3ed3955bef7c5dcd0d738f30fa84
+W
+'src/test/java/arm/Tests/testStacks.java,b/7/b7b90bde3e5513d0d5b38c720252179bae2b0e3b
+^
+.src/main/java/arm/Queues/LinkedListQueues.java,1/2/128b014698d0798df98242952fa8701af53d290a
+d
+4src/main/java/arm/Queues/linkedLits_DobleQueues.java,2/0/2063462a9a53e92f1ca32d97dfbdf716af20d8ec
+Z
+*src/main/java/arm/Queues/IDobleQueues.java,d/d/dd51ea30914673b786217e10e194f7c874d49ccf
+V
+&src/main/java/arm/Graphs/IMyGraph.java,1/0/10f453718ee41b05b45f0fbce8cbb645adb1fbe0
+U
+%src/main/java/arm/Graphs/MyGraph.java,7/c/7c3eabf59f778aa45da898e679f9f091cfd67ee5
+T
+$src/main/java/arm/Graphs/GEdges.java,e/9/e9e42a27e482425c7cd3f57b3b42b64bb47cd202
+S
+#src/main/java/arm/Graphs/GNode.java,c/e/cec61c66c589f2966f5dbb909e5e14dd261e9e35
+a
+1src/test/java/arm/Tests/testDoubleLinkedList.java,4/5/45b257d797488b03480f0a2b8c03e9ac6f437c47

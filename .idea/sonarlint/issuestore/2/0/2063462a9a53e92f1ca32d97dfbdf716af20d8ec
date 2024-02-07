@@ -1,0 +1,9 @@
+
+t
+java:S1192"RDefine a constant instead of duplicating this literal "The list is empty" 4 times.(šèá®şÿÿÿÿ8Å¾×÷×1
+h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‚¯†F8ŠîÅ÷×1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°ïóòúÿÿÿÿ8îÅ÷×1
+L	java:S106"+Replace this use of System.out by a logger.(šèá®şÿÿÿÿ8‹»É÷×1
+L	java:S106$"+Replace this use of System.out by a logger.(šèá®şÿÿÿÿ8€¼Ö÷×1
+L	java:S106/"+Replace this use of System.out by a logger.(šèá®şÿÿÿÿ8Ñ¿×÷×1
+L	java:S1067"+Replace this use of System.out by a logger.(šèá®şÿÿÿÿ8Í½Ø÷×1
