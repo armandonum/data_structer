@@ -1,36 +1,37 @@
 package arm.linkedList;
 
-public class DoubleLinkedList<T> implements IDoubleLinkedList<T>{
+public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
     private DoubkleEdgeNode<T> head;
     private DoubkleEdgeNode<T> tail;
-    public DoubleLinkedList(){
-        this.head=new DoubkleEdgeNode<>(null);
-        this.tail=new DoubkleEdgeNode<>(null);
+
+    public DoubleLinkedList() {
+        this.head = new DoubkleEdgeNode<>(null);
+        this.tail = new DoubkleEdgeNode<>(null);
 //        DoubkleEdgeNode<T> head=new DoubkleEdgeNode<>(null);
 //        DoubkleEdgeNode<T> tail=new DoubkleEdgeNode<>(null);
-        head.next=tail;
-        tail.prev=head;
+        head.next = tail;
+        tail.prev = head;
 //        this.head=null;
 //        this.tail=null;
     }
 
     @Override
     public int size() {
-        if(isEmpty()){
+        if (isEmpty()) {
             return 0;
         }
-        int size =0;
-        DoubkleEdgeNode<T> current=head.next;
-        while(current!=tail){
+        int size = 0;
+        DoubkleEdgeNode<T> current = head.next;
+        while (current != tail) {
+            current = current.next;
             size++;
-            current=current.next;
         }
-        return  size;
+        return size;
     }
 
     @Override
     public boolean isEmpty() {
-        if(head==null){
+        if (head == null) {
             return true;
         }
         return false;
@@ -38,7 +39,7 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T>{
 
     @Override
     public DoubkleEdgeNode<T> first() {
-        if(isEmpty()){
+        if (isEmpty()) {
             return null;
         }
         return head.next;
@@ -47,7 +48,7 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T>{
     @Override
     public DoubkleEdgeNode<T> last() {
 
-        if(isEmpty()){
+        if (isEmpty()) {
             return null;
         }
         return tail.prev;
@@ -55,45 +56,53 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T>{
 
     @Override
     public void addFirst(T data) {
-        DoubkleEdgeNode<T> newNode=new DoubkleEdgeNode<>(data);
-        newNode.next=head.next;
-        newNode.prev=head;
-        head.next.prev=newNode;
-        head.next=newNode;
+        DoubkleEdgeNode<T> newNode = new DoubkleEdgeNode<>(data);
+        newNode.next = head.next;
+        newNode.prev = head;
+        head.next.prev = newNode;
+        head.next = newNode;
 
     }
 
     @Override
     public void addLast(T data) {
-        DoubkleEdgeNode<T> newNode=new DoubkleEdgeNode<>(data);
-        newNode.prev=tail.prev;
-        newNode.next=tail;
-        tail.prev.next=newNode;
-        tail.prev=newNode;
+        DoubkleEdgeNode<T> newNode = new DoubkleEdgeNode<>(data);
+        newNode.prev = tail.prev;
+        newNode.next = tail;
+        tail.prev.next = newNode;
+        tail.prev = newNode;
     }
 
     @Override
     public void removeFirst() {
-        if(isEmpty()){
-            head.next=head.next.next;
-            head.next.prev=head;
+        if (!isEmpty() ){
+            head = head.next;
+            if (head == null) {
+                tail = null;
+            } else {
+                head.prev = null;
+            }
         }
-
     }
 
     @Override
     public void removeLast() {
-        if(isEmpty()){
-            tail.prev=tail.prev.prev;
-            tail.prev.next=tail;
-        }
+      if(!isEmpty()){
+          tail=tail.prev;
+          if(tail==null){
+              head=null;
+          }else{
+              tail.next=null;
+          }
+      }
 
     }
-    public void print(){
-        DoubkleEdgeNode<T> current=head.next;
-        while(current!=tail){
+
+    public void print() {
+        DoubkleEdgeNode<T> current = head.next;
+        while (current != tail) {
             System.out.println(current.data);
-            current=current.next;
+            current = current.next;
         }
     }
 }
