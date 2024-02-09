@@ -23,8 +23,7 @@ public void resolve(int n, ITowerHanoi tower) {
         System.out.println("hanoi tower solved");
     } 
    ```
-![Frame 3.png](..%2F..%2F..%2F..%2F..%2Fdescargas%2FFrame%203.png)
-
+![Frame 3.png](img%2FFrame%203.png)
 # 2.bubble sort
 ### Description
 Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the
