@@ -7,5 +7,5 @@ G	java:S106
 "+Replace this use of System.out by a logger.(¿Åß³8ŸŞİáØ1
 R
 java:S2209"5Change this instance-reference to a static reference.(Òï¤Î8»©âáØ1
-L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¤ŞİáØ1
-G	java:S106"+Replace this use of System.out by a logger.(¿Åß³8ªŞİáØ1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¤ŞİáØ1
+G	java:S106"+Replace this use of System.out by a logger.(¿Åß³8ªŞİáØ1

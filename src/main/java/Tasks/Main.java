@@ -3,12 +3,10 @@ package Tasks;
 import Tasks.task_1.ITowerHanoi;
 import Tasks.task_1.TowerHanoi;
 import Tasks.task_1.TowerHanoiRun;
-<<<<<<< HEAD
+
 import Tasks.task_2.bubledSortRun;
 
-=======
-import jdk.internal.misc.InnocuousThread;
->>>>>>> origin/main
+
 import java.util.Scanner;
 
 public class Main {
