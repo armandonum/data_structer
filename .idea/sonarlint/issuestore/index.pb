@@ -99,3 +99,13 @@ S
 #src/main/java/arm/Graphs/GNode.java,c/e/cec61c66c589f2966f5dbb909e5e14dd261e9e35
 a
 1src/test/java/arm/Tests/testDoubleLinkedList.java,4/5/45b257d797488b03480f0a2b8c03e9ac6f437c47
+Z
+*src/main/java/arm/MergeSort/MergeSort.java,0/7/07d59f230c155ddc001d2380bfb0559728b86486
+[
++src/main/java/arm/MergeSort/IMergeSort.java,e/7/e74b4d78222f4d4e13608d05e930b7d04d046185
+]
+-src/main/java/arm/MergeSort/RumMergeSort.java,3/0/30934eb7fa5c67a9fc0d4aa0d34b3a65c7d3ab4f
+Z
+*src/main/java/Tasks/task_2/bubledSort.java,9/a/9a1ecf9ee43a9c5963c91e97bfad6758c8e74aa2
+]
+-src/main/java/Tasks/task_2/bubledSortRun.java,6/2/626cddc955ca12ab614cd8ec37983d363407ae6d
