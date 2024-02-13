@@ -13,12 +13,12 @@ public class Welcome {
 
         System.out.println("B. CircularList");
         System.out.println("C. Stacks");
-//        System.out.println("3. Queues");
-//        System.out.println("4. Trees");
-//        System.out.println("5. Graphs");
-//        System.out.println("6. 1 Sorting");
-//        System.out.println("7. 2 Sorting");
-//        System.out.println("8. 3 Sorting");
+        System.out.println("D. Queues");
+        System.out.println("E. Trees");
+        System.out.println("F. Graphs");
+        System.out.println("G. 1 Sorting");
+        System.out.println("H. 2 Sorting");
+        System.out.println("I. 3 Sorting");
         System.out.println(" ");
     }
 

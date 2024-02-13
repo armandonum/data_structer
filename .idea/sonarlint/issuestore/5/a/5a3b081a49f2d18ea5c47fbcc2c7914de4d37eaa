@@ -1,19 +1,18 @@
 
 L
-java:S3740"/Provide the parametrized type for this generic.(³—Ï8Í†ôñÔ1
+java:S3740"/Provide the parametrized type for this generic.(³—Ï8Í†ôñÔ1
 L
-java:S3740"/Provide the parametrized type for this generic.(³—Ï8Î†ôñÔ1
+java:S3740"/Provide the parametrized type for this generic.(³—Ï8Î†ôñÔ1
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÁëåøÿÿÿÿ8Ó†ôñÔ1
-L	java:S106"+Replace this use of System.out by a logger.(´‚û™ıÿÿÿÿ8—‰ôñÔ1
-L	java:S106"+Replace this use of System.out by a logger.(×ä¥ÿÿÿÿÿ8›‰ôñÔ1
-G	java:S106"+Replace this use of System.out by a logger.(Ğ¯ï£8µ‰ôñÔ1
-L	java:S106"+Replace this use of System.out by a logger.(úŞ²Ãşÿÿÿÿ8Ç‰ôñÔ1
-G	java:S106""+Replace this use of System.out by a logger.(øâ›«8Ï‰ôñÔ1
-L	java:S106$"+Replace this use of System.out by a logger.(ÌŒÕÆøÿÿÿÿ8Ø‰ôñÔ1
-G	java:S106'"+Replace this use of System.out by a logger.(Ò˜÷ï8Ù‰ôñÔ1
-G	java:S106/"+Replace this use of System.out by a logger.(Àš‹€8Û‰ôñÔ1
-L	java:S1060"+Replace this use of System.out by a logger.(’ÙŞ©úÿÿÿÿ8İ‰ôñÔ1
-G	java:S1061"+Replace this use of System.out by a logger.(ö›Ï§8‡ùñÔ1
-G	java:S1062"+Replace this use of System.out by a logger.(«–â³8¸èùñÔ1
-X
-java:S1128"6Remove this unused import 'arm.linkedList.LinkedList'.(³¨…úÿÿÿÿ8Ş‰ôñÔ1
+L	java:S106
+"+Replace this use of System.out by a logger.(´‚û™ıÿÿÿÿ8—‰ôñÔ1
+L	java:S106"+Replace this use of System.out by a logger.(×ä¥ÿÿÿÿÿ8›‰ôñÔ1
+G	java:S106"+Replace this use of System.out by a logger.(Ğ¯ï£8µ‰ôñÔ1
+L	java:S106"+Replace this use of System.out by a logger.(úŞ²Ãşÿÿÿÿ8Ç‰ôñÔ1
+G	java:S106!"+Replace this use of System.out by a logger.(øâ›«8Ï‰ôñÔ1
+L	java:S106#"+Replace this use of System.out by a logger.(ÌŒÕÆøÿÿÿÿ8Ø‰ôñÔ1
+G	java:S106&"+Replace this use of System.out by a logger.(Ò˜÷ï8Ù‰ôñÔ1
+G	java:S106."+Replace this use of System.out by a logger.(Àš‹€8Û‰ôñÔ1
+L	java:S106/"+Replace this use of System.out by a logger.(’ÙŞ©úÿÿÿÿ8İ‰ôñÔ1
+G	java:S1060"+Replace this use of System.out by a logger.(ö›Ï§8‡ùñÔ1
+G	java:S1061"+Replace this use of System.out by a logger.(«–â³8¸èùñÔ1
