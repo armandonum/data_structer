@@ -1,4 +1,10 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öş«àøÿÿÿÿ
-_
-java:S2094"BRemove this empty class, write its code or make it an "interface".(Ü°óç8Ó…¿×Ø1
+m
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(­Ö¹§úÿÿÿÿ8¿äòªÛ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öş«àøÿÿÿÿ8«³êªÛ1
+L	java:S106"+Replace this use of System.out by a logger.(ºÄŞîûÿÿÿÿ8ß³êªÛ1
+C	java:S131""Add a default case to this switch.(­Ö¹§úÿÿÿÿ8‚ğªÛ1
+L	java:S106"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8â³êªÛ1
+L	java:S106"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8ßğªÛ1
+L	java:S106("+Replace this use of System.out by a logger.(ìğÜêøÿÿÿÿ8áğªÛ1
+L	java:S106)"+Replace this use of System.out by a logger.(¹ã¦üÿÿÿÿ8şöªÛ1

@@ -1,8 +1,6 @@
 
 M
 src/main/java/Tasks/Main.java,6/1/61a15735ffac351d9ec232e11cd0187a78f26105
-S
-#src/main/java/arm/Trees/ITrees.java,b/2/b2b1043daf991915b3a272e29544115dca08bfeb
 M
 src/main/java/Tasks/IRun.java,a/1/a1ea02617ebc5239db10893698d3b0ecfdfd2476
 9
@@ -73,3 +71,19 @@ c
 3src/main/java/arm/linkedList/LinkedListManager.java,e/1/e1b7181bfeef524f94f5f9b75d2a0cef3edb4919
 U
 %src/main/java/arm/stacks/IStacks.java,a/7/a73c5bab1867ae2f695bbdece2b48771bb046c5f
+Y
+)src/main/java/arm/interfaces/IRunner.java,3/4/348bf333c8d6db0f4cc67f4233ab8f61e1c383a0
+[
++src/main/java/arm/Graphs/MyGraphRunner.java,3/f/3f8449a521978279b36ef39e635c8048bf3af8f2
+[
++src/main/java/arm/MergeSort/IMergeSort.java,e/7/e74b4d78222f4d4e13608d05e930b7d04d046185
+W
+'src/test/java/arm/Tests/testStacks.java,b/7/b7b90bde3e5513d0d5b38c720252179bae2b0e3b
+W
+'src/test/java/arm/Tests/testQueues.java,9/c/9c21e85623b3d61d5e64cfbd3bc79eb80f38c882
+[
++src/test/java/arm/Tests/testLinkedList.java,e/c/eca7d8f8f4e9de697c7e972bea95149bc5fd82e9
+W
+'src/test/java/arm/Tests/TestGraphs.java,2/4/24897e485b3c922e49950f88c8f6df78b082bbe5
+Z
+*src/test/java/arm/Tests/testMergeSort.java,6/9/6951b62ad9159d7a09c708cc387ac12dda4a3eb6
